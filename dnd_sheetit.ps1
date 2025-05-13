@@ -2,7 +2,7 @@
 $inputFolder = "C:\Users\domus\Pictures\dnd"
 $outputBase = "C:\Users\domus\Pictures\dnd\images"
 $gsPath = "C:\Program Files\gs\gs10.05.1\bin\gswin64c.exe"  # Update to your install path
-$resolution = 150
+$resolution = 300
 
 # Ensure Ghostscript exists
 if (!(Test-Path $gsPath)) {
